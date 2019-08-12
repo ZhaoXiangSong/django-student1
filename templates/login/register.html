@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页</title>
+</head>
+<body>
+<!--错误写法 login/register/   会在当前页面url后继续补
+    正确写法/login/register/   ip:port后开始/-->
+<form id="register-form" action="/login/register/" method="post">
+    {% csrf_token %}
+    姓名：<input id="form-name" type="text" placeholder="用户名" name="name">
+    密码：<input type="password" placeholder="密码" name="password">
+    邮箱：<input type="text" placeholder="*****@***.com" name="email">
+    备注：<input type="text" placeholder="蔡徐坤" name="note">
+    爱好：<input type="text" placeholder="唱跳 rap 篮球" name="hobby">
+    <input type="submit" value="注册">
+</form>
+<h3 id="error_message" style="color: red"></h3>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{#<script>#}
+{#    formName = document.getElementById('form-name');#}
+{#    console.log( formName);#}
+{#    // onchange 表单输出内容变化并失去焦点focus是触发。onblur失去焦点。onfucus获得焦点。#}
+{#    formName.onchange = function () {#}
+{#        // js发送http异步请求，xhr#}
+{#        var xhr = new XMLHttpRequest();#}
+{#        xhr.open('post','http://127.0.0.1:8000/login/register_check/');#}
+{#        // 添加请求头，编码表单中的中文参数#}
+{#        xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');#}
+{#        // 发送请求和传表单参数#}
+{#        xhr.send('name=张');#}
+{##}
+{#        // xhr请求状态  0未初始化；1正在加载；2已加载；3交互中；4完成；#}
+{#        xhr.onreadystatechange = function () {#}
+{#            console.log(xhr);#}
+{#            if (xhr.readyState == 4 && xhr.status == 200){#}
+{#                console.log(xhr.responseText);#}
+{#                respText = xhr.responseText;#}
+{#                resp_obj = JSON.parse(respText) ;/// json字符串转js对象#}
+{#                console.log(resp_obj);#}
+{#                error_message = resp_obj.error_message;#}
+{#                console.log(error_message);#}
+{#                document.getElementById('error_message').innerHTML = error_message#}
+{#            }#}
+{#        };#}
+{#    }#}
+{##}
+{#</script>#}
