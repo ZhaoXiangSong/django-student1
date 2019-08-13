@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab9af4a0-910f-4700-9eae-821831dce5e5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -79,8 +80,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="528">
-                <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+              <first_editor relative-caret-position="303">
+                <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -706,8 +707,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="528">
-            <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+          <first_editor relative-caret-position="303">
+            <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
